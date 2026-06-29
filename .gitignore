@@ -1,0 +1,132 @@
+# ===========================
+# Unity .gitignore
+# ===========================
+
+# This .gitignore should be placed at the root of your Unity project.
+
+##############################
+# Unity generated folders
+##############################
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+UserSettings/
+
+##############################
+# Visual Studio / Rider
+##############################
+
+.vs/
+.vscode/
+.idea/
+
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+##############################
+# Rider
+##############################
+
+.idea/
+*.DotSettings.user
+
+##############################
+# OS files
+##############################
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+##############################
+# Crash reports
+##############################
+
+sysinfo.txt
+
+##############################
+# Unity cache
+##############################
+
+/Assets/AssetStoreTools*
+
+##############################
+# Addressables
+##############################
+
+/ServerData/
+
+##############################
+# Build output
+##############################
+
+*.apk
+*.aab
+*.ipa
+*.app
+*.exe
+*.x86
+*.x86_64
+*.unitypackage
+
+##############################
+# Gradle
+##############################
+
+.gradle/
+
+##############################
+# Generated Android files
+##############################
+
+/Assets/Plugins/Android/*.aar.meta
+
+##############################
+# IL2CPP
+##############################
+
+il2cppOutput/
+
+##############################
+# Burst
+##############################
+
+/Assets/**/BurstDebugInformation*
+
+##############################
+# Auto-generated documentation
+##############################
+
+Documentation~
+
+##############################
+# Unity Package cache
+##############################
+
+/Library/PackageCache/
+/Library/ScriptAssemblies/
+
+##############################
+# Keep these folders!
+##############################
+#!Assets/
+#!Packages/
+#!ProjectSettings/
