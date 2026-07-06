@@ -43,11 +43,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: chihuahua_Angry
-      takeName: chihuahua_Angry
+      name: chihuahua_WiglingTail.001
+      takeName: chihuahua_WiglingTail.001
       internalID: -6588762342059816686
       firstFrame: 0
-      lastFrame: 99
+      lastFrame: 38
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -315,7 +315,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0

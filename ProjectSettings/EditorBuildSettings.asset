@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Spider_Scene.unity
     guid: c72f88badcb9f184b821e3e7d7c94c99
   - enabled: 1
-    path: Assets/Scenes/Dog_Scene.unity
+    path: Assets/Scenes/Dog1_Scene.unity
     guid: af45a7e882e605f46afe02724dec6876
   - enabled: 1
     path: Assets/Scenes/Height_Scene.unity
