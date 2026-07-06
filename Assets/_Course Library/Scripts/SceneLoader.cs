@@ -3,21 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    [Header("Scene Settings")]
-    public string sceneName;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public void LoadScene()
+    public void LoadScene(string sceneName)
     {
-        if (!string.IsNullOrEmpty(sceneName))
+        if (string.IsNullOrEmpty(sceneName))
         {
-            Debug.LogWarning("iam here");
-            SceneManager.LoadScene(sceneName);
-        }
-        else
-        {
-            Debug.LogWarning("Scene name is empty");
+            Debug.LogWarning("Scene name is empty.");
+            return;
         }
 
+        Debug.Log($"Loading scene: {sceneName}");
+        SceneManager.LoadScene(sceneName);
     }
 }
-
